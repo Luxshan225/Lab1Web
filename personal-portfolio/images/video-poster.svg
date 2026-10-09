@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540">
+  <defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#14263d"/><stop offset="1" stop-color="#0b1728"/></linearGradient></defs>
+  <rect width="960" height="540" fill="url(#g)"/>
+  <circle cx="480" cy="190" r="66" fill="#35d0c2" opacity=".9"/>
+  <path d="M355 420 Q370 295 480 295 Q590 295 605 420" fill="#35d0c2" opacity=".9"/>
+  <text x="480" y="485" font-family="Arial, sans-serif" font-size="27" text-anchor="middle" fill="#edf5fb">Replace with your introduction video poster</text>
+</svg>

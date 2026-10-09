@@ -1,0 +1,22 @@
+/* Laptop/desktop-specific adjustments: 1025px and wider.
+   The content is centered and capped so lines do not become too long. */
+@media screen and (min-width: 1025px) {
+    .site-width { width: 84%; max-width: 1160px; }
+    .header-content { padding: 1.2rem 0; }
+    .site-name { margin-right: 2.5rem; }
+    .nav-list { display: inline-block; margin: 0 0 0 2rem; }
+    .nav-list li { margin-right: 1.5rem; }
+    .hero { padding: 4.5rem; margin-top: 2rem; }
+    h1 { font-size: 3.6rem; }
+    .hero-copy { font-size: 1.15rem; }
+    .feature-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1.25rem; }
+    .feature-grid .panel { margin-bottom: 0; }
+    .project-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.25rem; }
+    .project-card { margin-bottom: 0; padding: 1.5rem; }
+    .about-layout { display: grid; grid-template-columns: minmax(0, 0.8fr) minmax(0, 1.2fr); gap: 2rem; align-items: start; }
+    .profile-figure { margin: 0; }
+    .profile-figure img { min-height: 22rem; }
+    .contact-layout { display: grid; grid-template-columns: minmax(0, 0.8fr) minmax(0, 1.2fr); gap: 2rem; align-items: start; }
+    .contact-info { margin-bottom: 0; }
+    .panel { padding: 1.6rem; }
+}
